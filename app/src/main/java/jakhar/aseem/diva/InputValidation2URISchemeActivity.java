@@ -31,16 +31,16 @@
  */
 package jakhar.aseem.diva;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.EditText;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class InputValidation2URISchemeActivity extends AppCompatActivity {
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
